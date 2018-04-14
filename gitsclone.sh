@@ -2,7 +2,7 @@
 DIRECTORY=0
 while getopts "r" opt; do
     case $opt in
-        r) DIRECTORY=1 ;; # Handle -a
+        r) DIRECTORY=1 ;;
     esac
 done
 
